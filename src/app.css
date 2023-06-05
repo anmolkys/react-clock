@@ -1,0 +1,15 @@
+*{
+    background: #1f1e1e;
+}
+.mainer{
+    height: 650px;
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.timer{
+    color: aliceblue;
+    size: 30vh;
+}

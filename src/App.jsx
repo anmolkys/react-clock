@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './app.css'
 
 export default function App(){
   let time = new Date().toLocaleTimeString();
@@ -9,9 +10,9 @@ export default function App(){
   };
   setInterval(UpdateTime,1000)
   return (
-    <>
+    <div className="mainer">
     <h1 className="timer">{Ctime}</h1>
-    </>
+    </div>
   );
 
 }
